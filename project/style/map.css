@@ -1,0 +1,49 @@
+/*body起始height为0，因此当不设置body的高度的时候，地图大小也为0*/
+html,body{
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+.nav{
+	width:200px;
+	float:left;
+}
+#mapContainer{
+	width:1149px;
+	height:100%;
+	float:left;
+}
+#search{
+	display:none;
+	position:absolute;
+	left:250px;
+	top:50px;
+	background:white;
+	z-index:2;
+}
+#poi{
+	display:none;
+	position:absolute;
+	left:250px;
+	top:38px;
+	z-index:2;
+}
+
+/*为信息框设置样式*/
+#info{
+	display:none;
+	position:absolute;
+	left:250px;
+	top:75px;
+	background:red;
+	z-index:2;
+}
+/*设置人行轨迹框*/
+#path{
+	display:none;
+	position:absolute;
+	left:250px;
+	top:70px;
+	background:white;
+	z-index:3;
+}
